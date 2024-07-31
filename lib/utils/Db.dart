@@ -6,4 +6,5 @@ class Db{
     p = await SharedPreferences.getInstance();
   }
   static const String wallet = 'wallet';
+   static const String list = 'list';
 }
